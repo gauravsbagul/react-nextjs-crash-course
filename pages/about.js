@@ -1,12 +1,10 @@
-import Head from 'next/head'
+import {Meta} from '../components/Meta'
 
 export default function About() {
   return (
-   <div>
-      <Head>
-        <title>About</title>
-        <meta name='keywords' content='web development, programming' />
-      </Head>
+    <div>
+      <Meta title='About' />
+  
       <h1>Welcome to About</h1>
  
     </div>

@@ -9,7 +9,7 @@ export const ArticleItem =({ article }) =>{
                 <h3>
                     {article.title} &rarr;
                 </h3>
-                <p>{article.body}</p>
+                <p>{article.excerpt}</p>
             </a>
             
 

@@ -1,7 +1,7 @@
 
 import React from 'react'
 import styles from '../styles/Nav.module.css'
-import Link from 'next/Link'
+import Link from 'next/link';'
 
 
 const Nav=({ children }) => {
